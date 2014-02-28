@@ -425,11 +425,12 @@ user model. Try to create an `User.new` model in the console and call the `.erro
 like:
 
 
-{: lang="ruby" }
+```ruby
     => #<ActiveModel::Errors:0x9dea518 @base=#<User id: nil, name: nil, email: nil, created_at: nil,
         updated_at: nil, password: nil>, messages{:name=>["can't be blank"],
         :password=>["is too short (minimum is 5 characters)", "can't be blank"],
-        :email=>["can't be blank", "is invalid"]}
+        email=>["can't be blank", "is invalid"]}
+```
 
 
 We can use this information to display the errors in our form for the user to let him know what they did wrong. If you
