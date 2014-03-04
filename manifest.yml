@@ -1,3 +1,4 @@
+css: https://raw.github.com/matthias-guenther/padrino-book/master/ebook.css
 pages:
   - 01-00-introduction.md
   - 01-01-motivation.md
