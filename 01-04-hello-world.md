@@ -17,21 +17,6 @@ First of all we need to install the *padrino gem*. We are using the last stable 
 this book it is version **0.11.2**). Execute this command.
 
 
-{: lang="bash" }
-    $ gem install padrino
-
-
-This will install all necessary dependencies and gets you ready to start. Now we will generate a fresh new Padrino
-project:
-
-
-{: lang="bash" }
-    $ padrino generate project hello-world
-
-
-Let's go through each part of this command:
-
-
 - `padrino generate`: Tells Padrino to execute the generator with the specified options. The options can be
   used to create other **components** for your app, like a **mailing system** or an **admin panel** to manage your
   database entries. We will handle these things in a future chapter. A shortcut for generate is `g` which we will use
@@ -45,6 +30,12 @@ The console output should look like the following:
 
 {: lang="bash" }
       create
+      create  config.ru
+      create  config/apps.rb
+      create  config/boot.rb
+      create  public/favicon.ico
+      create  public/images
+      create  public/javascripts
       create  .gitignore
       create  config.ru
       create  config/apps.rb
